@@ -1,1 +1,146 @@
-Stat C 131A
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StatC131A | Statistical Methods for Data Science (Fall 2025)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { --fg:#1f2328; --muted:#6a737d; --link:#0969da; --bg:#fff; --border:#d0d7de; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.55 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
+    a { color:var(--link); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .topbar {
+      position:sticky; top:0; z-index:10; backdrop-filter:saturate(180%) blur(10px);
+      background:rgba(255,255,255,.9); border-bottom:1px solid var(--border);
+    }
+    .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+    .nav { display:flex; align-items:center; gap:24px; padding:14px 0; }
+    .brand { font-weight:700; }
+    .navlinks { margin-left:auto; display:flex; gap:16px; }
+    main.wrap { padding:28px 20px 60px; }
+    h1 { font-size:28px; margin:.2em 0 .2em; }
+    .subtitle { color:var(--muted); margin:0 0 1.2rem; }
+    section { margin:28px 0 36px; }
+    h2 { font-size:22px; margin:0 0 .6rem; padding-top:8px; border-top:1px solid var(--border); }
+    h3 { font-size:18px; margin:1rem 0 .25rem; }
+    ul { margin:.4rem 0 .8rem 1.25rem; }
+    .small { color:var(--muted); font-size:14px; }
+    .codeish { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
+    .list-tight li { margin:.25rem 0; }
+    .badge {
+      display:inline-block; padding:2px 8px; border:1px solid var(--border); border-radius:999px;
+      font-size:12px; color:var(--muted);
+    }
+    .hr { height:1px; background:var(--border); border:0; margin:16px 0 12px; }
+    .foot { color:var(--muted); font-size:14px; border-top:1px solid var(--border); padding-top:16px; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <div class="brand"><a href="#">StatC131A</a></div>
+      <nav class="navlinks">
+        <!-- These link to separate pages you can add later -->
+        <a href="schedule.html">Schedule</a>
+        <a href="staff.html">Staff</a>
+        <a href="syllabus.html">Syllabus</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Statistical Methods for Data Science</h1>
+    <p class="subtitle">UC Berkeley · Fall 2025</p>
+
+    <section id="course-description">
+      <h2>Course Description</h2>
+      <p>
+        This course introduces core statistical concepts and methods used in data science:
+        exploratory data analysis, sampling and study design, probability, estimation,
+        hypothesis testing, regression (linear/logistic), resampling, and model assessment.
+        Emphasis is on practical reasoning with uncertainty, reproducible workflows, and
+        communicating results clearly.
+      </p>
+      <p class="small">Important: We will post announcements on Ed. Please monitor Ed regularly.</p>
+    </section>
+
+    <section id="links">
+      <h2>Useful Course Links</h2>
+      <ul class="list-tight">
+        <li>bCourses: <a href="#" aria-label="bCourses link">link</a></li>
+        <li>Ed: <a href="#" aria-label="Ed link">link</a></li>
+        <li>Gradescope: <a href="#" aria-label="Gradescope link">link</a></li>
+      </ul>
+    </section>
+
+    <section id="textbooks">
+      <h2>Textbooks (Optional)</h2>
+      <ul class="list-tight">
+        <li><em>OpenIntro Statistics</em> (free online) — accessible intro reference.</li>
+        <li><em>An Introduction to Statistical Learning (ISL)</em> — helpful for regression/classification intuition.</li>
+        <!-- Add your preferred 131A references or course notes here -->
+      </ul>
+    </section>
+
+    <section id="lectures">
+      <h2>Lectures</h2>
+      <p>
+        Lectures meet <span class="codeish">TBD days/time</span> in <span class="codeish">TBD room</span> or via Zoom.
+        Slides will be posted below; videos will appear in bCourses <span class="codeish">Media Gallery</span>.
+        An Ed post titled <em>“Lecture Schedule”</em> will contain live updates on room/recordings.
+      </p>
+
+      <h3>Lecture Slides</h3>
+      <ul class="list-tight">
+        <!-- Pattern: “Lecture 01 [Week 1, YYYY/MM/DD] Title” -->
+        <li>Lecture 01 [Week 1, 2025/09/02] <a href="slides/lec01-intro.pdf">Introduction & Course Logistics</a></li>
+        <li>Lecture 02 [Week 1, 2025/09/04] <a href="slides/lec02-eda.pdf">Exploratory Data Analysis</a></li>
+        <li>Lecture 03 [Week 2, 2025/09/09] <a href="slides/lec03-probability.pdf">Probability & Random Variables</a></li>
+        <li>Lecture 04 [Week 2, 2025/09/11] <a href="slides/lec04-sampling.pdf">Sampling & Study Design</a></li>
+        <!-- Duplicate and extend as needed -->
+      </ul>
+
+      <p class="small">Optional weekly reading list: <a href="#" aria-label="Reading list doc">link</a>.</p>
+    </section>
+
+    <section id="sections">
+      <h2>Discussion Sections</h2>
+      <p>
+        Sections reinforce lecture concepts through problem solving. You may attend any section.
+        Less crowded sections often provide more interaction time.
+      </p>
+
+      <h3>Section Notes</h3>
+      <ul class="list-tight">
+        <li>Discussion 01 (Week 2): <a href="sections/section01-notes.pdf">Notes</a>, <a href="sections/section01-soln.pdf">Solution</a></li>
+        <li>Discussion 02 (Week 3): <a href="sections/section02-notes.pdf">Notes</a>, <a href="sections/section02-soln.pdf">Solution</a></li>
+        <!-- Add more as released -->
+      </ul>
+    </section>
+
+    <section id="homeworks">
+      <h2>Homeworks</h2>
+      <p>All homeworks are graded for accuracy. See the <a href="syllabus.html">syllabus</a> for collaboration and late policies.</p>
+      <h3>Assignments</h3>
+      <ul class="list-tight">
+        <li><a href="https://gradescope.com/">Homework 1</a> <span class="badge">due: TBD</span></li>
+        <li><a href="https://gradescope.com/">Homework 2</a> <span class="badge">due: TBD</span></li>
+        <li><a href="https://gradescope.com/">Homework 3</a> <span class="badge">due: TBD</span></li>
+        <li><a href="https://gradescope.com/">Final Project</a> <span class="badge">due: TBD</span></li>
+      </ul>
+    </section>
+
+    <section id="policies">
+      <h2>Course Policies</h2>
+      <ul class="list-tight">
+        <li><strong>Collaboration:</strong> Discuss concepts freely; submit your own work and cite collaborators.</li>
+        <li><strong>Late Policy:</strong> See syllabus for slip-day/late details.</li>
+        <li><strong>Academic Honesty:</strong> Follow campus integrity guidelines.</li>
+      </ul>
+      <div class="hr"></div>
+      <p class="foot small">This site follows a documentation-style layout similar to the reference site you shared.</p>
+    </section>
+  </main>
+</body>
+</html>
